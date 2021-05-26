@@ -1,6 +1,6 @@
 import Layout from '../../components/Layout';
 import { getData, getPaths } from '../../lib/content';
-import Post from '../../components/post';
+import Post from '../../components/Post';
 
 const ProjectPost = ({ data }) => {
     return (

@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import styles from '../styles/post.module.css';
 import { dateString } from '../lib/date';
-import Dates from './dates';
+import Dates from './Dates';
 
 const Post = ({ data }) => {
     return (

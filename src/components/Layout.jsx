@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from './nav';
+import Nav from './Nav';
 import styles from '../styles/home.module.css';
 
 const Layout = ({ page, children }) => {

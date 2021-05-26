@@ -1,4 +1,4 @@
-import ExperienceTimeline from '../../components/experienceTimeline';
+import ExperienceTimeline from '../../components/ExperienceTimeline';
 import Layout from '../../components/Layout';
 import { getContentData } from '../../lib/content'
 

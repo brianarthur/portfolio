@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Dates from './dates';
+import Dates from './Dates';
 import styles from '../styles/list.module.css';
 
 
