@@ -1,16 +1,22 @@
-import Head from 'next/head'
-import Image from 'next/image'
-// import styles from '../styles/about.module.css'
-
+import ProjectList from '../../components/projectList';
 import Layout from '../../components/Layout';
+import { getContentData } from '../../lib/content'
 
-export default function Home() {
+export default function Home({ projects }) {
 	return (
 		<Layout page="projects">
-			<div>
-				Projects ...
-			</div>
-			
+            <h1>Projects</h1>
+
+            <ProjectList projects={projects} />
 		</Layout>
 	);
+}
+
+export async function getStaticProps() {
+    const projects = getContentData('projects')
+    return {
+        props: {
+            projects
+        }
+    }
 }

@@ -1,0 +1,22 @@
+.listItem {
+    display: flex;
+    border: 5px solid #ca0d40;
+    height: 150px;
+    border-radius: 25px;
+    padding: 10px 30px;
+    margin: 50px 0;
+}
+
+.listContent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+.listItemTitle {
+    margin-bottom: 10px;
+}
+  
+.listDescription {
+    margin-left: 20px;
+}
