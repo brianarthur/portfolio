@@ -14,7 +14,7 @@ const ProjectList = ({ projects }) => {
 
 const ListItem = ({ data }) => {
     return (
-        <Link href={`/work/${data.id}`}>
+        <Link href={`/projects/${data.id}`}>
             <a className={styles.listItem}>
                 <div className={styles.listContent}>
                     <div>

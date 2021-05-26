@@ -1,8 +1,8 @@
 ---
-title: 'Portfolio'
-description: 'Personal portfolio website built with Next JS'
-startDate: '2021-05-01'
-endDate: '2021-05-15'
+title: 'Power Hour Buddy'
+description: 'QHacks project to create custom power hour playlists using the Spotify API'
+startDate: '2021-01-01'
+endDate: '2021-01-15'
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
