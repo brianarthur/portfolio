@@ -1,7 +1,7 @@
 ---
 title: 'Bell Canada'
 description: 'Integration Specialist'
-startDate: '2021-05-01'
+startDate: '2021-05-03'
 endDate: 'Present'
 ---
 

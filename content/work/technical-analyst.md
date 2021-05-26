@@ -1,8 +1,8 @@
 ---
 title: 'Bell Canada'
 description: 'Technical Analyst'
-startDate: '2020-05-01'
-endDate: '2020-08--31'
+startDate: '2020-05-27'
+endDate: '2020-08-31'
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.

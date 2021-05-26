@@ -21,6 +21,10 @@
   margin-bottom: 10px;
 }
 
+.cardDescription {
+  margin-left: 20px;
+}
+
 .cardItemDates {
   height: 50%;
   display: flex;
