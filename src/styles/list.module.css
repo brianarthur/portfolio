@@ -1,0 +1,56 @@
+.card {
+  position: relative;
+  width: 50%;
+  display: block;
+}
+
+.cardRight {
+  margin-left: auto;
+}
+
+.cardItem {
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid #ca0d40;
+  height: 150px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.cardItemTitle {
+  margin-bottom: 10px;
+}
+
+.cardItemDates {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.vl {
+  border-left: 6px dotted #ca0d40;
+  height: 50px;
+  position: relative;
+  left: 50%;
+  margin-left: 0px;
+}
+
+.hl {
+  width: 50%;
+  position: absolute;
+  border-bottom: 6px dotted #ca0d40;
+  height: 75px;
+  left: 50%;
+  border-left: 6px dotted #ca0d40;
+}
+
+.cardRight .hl {
+  border-right: 6px dotted #ca0d40;
+  border-left: 0;
+  left: 0;
+}
+
+.cardRight .vl {
+  margin-left: -6px;
+}
