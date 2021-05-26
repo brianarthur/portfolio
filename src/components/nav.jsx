@@ -8,6 +8,8 @@ const pages = [
     { link: 'projects', name: "Projects" },
 ]
 
+const resume_link = 'https://drive.google.com/file/d/160-BRUjgqSWb8aMS1phKYqRQA8MN1O-I/view?usp=sharing';
+
 const Nav = ({page}) => {
     return (
         <header className={styles.nav}>
@@ -22,7 +24,7 @@ const Nav = ({page}) => {
                     </li>
                 ))}
 
-                <li><Link href="/resume"><a>Resume</a></Link></li>
+                <li><a href={resume_link} target="_blank">Resume</a></li>
             </ul>
         </header>
     );
