@@ -17,3 +17,12 @@
 .description {
     margin-left: 30px;
 }
+
+.markdownContent img {
+    width: 100%;
+}
+
+.markdownContent a {
+    text-decoration: underline;
+    color: #1411ef;
+}

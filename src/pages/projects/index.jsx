@@ -6,9 +6,9 @@ export default function Home({ projects }) {
 	return (
 		<Layout page="projects">
             <h1>Projects</h1>
-            Content coming soon ...
+            More content coming soon ...
 
-            {/* <ProjectList projects={projects} /> */}
+            <ProjectList projects={projects} />
 		</Layout>
 	);
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from '../styles/post.module.css';
-import { dateString } from '../lib/date';
 import Dates from './Dates';
 
 const Post = ({ data }) => {
@@ -16,7 +15,10 @@ const Post = ({ data }) => {
                     <h4>{data.description}</h4>
                 </div>
 				<hr />
-				<div dangerouslySetInnerHTML={{ __html: data.contentHtml }} />
+				<div 
+                    className={styles.markdownContent} 
+                    dangerouslySetInnerHTML={{ __html: data.contentHtml }} 
+                />
 			</article>
         </div>
     )
