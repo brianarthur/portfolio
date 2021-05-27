@@ -6,9 +6,9 @@ export default function Home({ work }) {
 	return (
 		<Layout page="work">
             <h1>Work experience</h1>
-            Content coming soon ...
-
-            {/* <ExperienceTimeline work={work} /> */}
+            <h5>Note: All work content desctiptions coming soon</h5>
+            
+            <ExperienceTimeline work={work} />
 		</Layout>
 	);
 }
