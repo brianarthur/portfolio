@@ -3,6 +3,7 @@ title: 'Portfolio'
 description: 'Personal portfolio website built with Next JS'
 startDate: '2021-05-10'
 endDate: '2021-05-15'
+icon: 'projects/portfolio/portfolio-icon.svg'
 ---
 
 View [source code](https://github.com/brianarthur/portfolio) in GitHub.

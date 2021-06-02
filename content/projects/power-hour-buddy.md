@@ -3,6 +3,7 @@ title: 'Power Hour Buddy'
 description: 'QHacks project to create custom power hour playlists using the Spotify API'
 startDate: '2021-01-22'
 endDate: '2021-01-24'
+icon: '/projects/power-hour-buddy/icon.jpg'
 ---
 
 View [source code](https://github.com/brianarthur/qhacks-21) in GitHub.
@@ -33,7 +34,7 @@ During this stage the playlist is submitted to the backend Flask application whi
 Then the application will generate a list of Youtube URLs containing the one minute clips for each music video. This is done through the Youtube API and searching for 'Official Music Video'. The list of URLs is returned to the user through API requests and then played through HTML iFrame elements.
 
 #### Select Spotify user songs
-![Website home](/projects/phb/home.png)
+![Website home](/projects/power-hour-buddy/home.png)
 
 #### Play your custom Power Hour plylist
-![Enjoy your playlist](/projects/phb/playlist.png)
+![Enjoy your playlist](/projects/power-hour-buddy/playlist.png)

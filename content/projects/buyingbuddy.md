@@ -3,6 +3,7 @@ title: 'Buying Buddy'
 description: 'Ecommerce marketplace to bring together customers and local businesses'
 startDate: '2020-06-15'
 endDate: 'Present'
+icon: 'projects/buying-buddy/icon.png'
 ---
 
 View [project demo](https://www.buyingbuddy.ca/). Will need to use a Kingston address in order to see any test store information. Try using the address *100 Princess Street, Kingston, ON* to test the application.

@@ -11,7 +11,17 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-  }
+}
+
+.listTitleContent {
+    display: flex;
+}
+
+.listTitleIcon {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
 
 .listItemTitle {
     margin-bottom: 10px;

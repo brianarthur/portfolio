@@ -19,9 +19,14 @@ export const TimelineItem = ({ data, left=true, lastItem=false }) => {
             <a className={left ? styles.card : styles.card + ' ' + styles.cardRight}>
                 <div>
                     <div className={styles.cardItem}>
-                        <div>
-                            <h4 className={styles.cardItemTitle}>{data.title}</h4>
-                            <div className={styles.cardDescription}>{data.description}</div>
+                        <div className={styles.cardTitleContent}>
+                            <div className={styles.cardTitleIcon}>
+                                <img src={data.icon} width={50} height={50} />
+                            </div>
+                            <div>
+                                <h4 className={styles.cardItemTitle}>{data.title}</h4>
+                                <div className={styles.cardDescription}>{data.description}</div>
+                            </div>
                         </div>
                         <div>
                             <h6 className={styles.cardItemDates}>{dateString(data.startDate)}</h6>

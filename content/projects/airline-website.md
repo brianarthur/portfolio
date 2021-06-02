@@ -3,6 +3,7 @@ title: 'Airline Website'
 description: 'Final project for CMPE 332 - Database Management Systems course'
 startDate: '2021-03-01'
 endDate: '2021-04-01'
+icon: 'projects/airline-website/airline-icon.png'
 ---
 
 View [source code](https://github.com/brianarthur/cmpe332-website) in GitHub.

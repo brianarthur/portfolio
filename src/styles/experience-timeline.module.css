@@ -17,6 +17,16 @@
   padding: 10px;
 }
 
+.cardTitleContent {
+  display: flex;
+}
+
+.cardTitleIcon {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
 .cardItemTitle {
   margin-bottom: 10px;
 }
