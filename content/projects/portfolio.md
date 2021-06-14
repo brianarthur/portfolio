@@ -2,7 +2,7 @@
 title: 'Portfolio'
 description: 'Personal portfolio website built with Next JS'
 startDate: '2021-05-10'
-endDate: '2021-05-15'
+endDate: '2021-06-15'
 icon: 'projects/portfolio/portfolio-icon.svg'
 ---
 

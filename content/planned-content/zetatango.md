@@ -6,4 +6,4 @@ endDate: '2018-08-27'
 icon: '/work/zetatango/icon.png'
 ---
 
-Work content description coming June 4th
+Work content description coming soon
